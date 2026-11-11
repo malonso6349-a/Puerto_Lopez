@@ -1,0 +1,104 @@
+/* Fondo de la pagina */
+body {
+    background-color: rgb(136, 209, 233);
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Estilo de los titulos */
+h1 {
+    color: blueviolet;
+    text-align: center;
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 20px;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Estilo de los subtitulos */
+h2 {
+    color: teal;
+}
+
+/* Estilo de los parrafos */
+p {
+    color: darkblue;
+    font-size: 18px;
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Estilo de las etiquetas */
+label {
+    color: darkblue;
+    font-size: 18px;
+    display: block;
+    margin: 10px;
+}
+
+/* Estilo de los campos */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilo del boton */
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: darkblue;
+    font-size: 18px;
+}
+
+/* Adaptacion para celulares */
+@media (max-width: 600px) {
+    h1 {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    form {
+        width: 85%;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}

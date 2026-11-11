@@ -1,0 +1,69 @@
+/* Fondo de la pagina */
+body {
+    background-color: rgb(136, 209, 233);
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+/* Estilo de los titulos */
+h1 {
+    color: blueviolet;
+    text-align: center;
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 20px;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+}
+/* Estilo de los parrafos */
+p {
+    color: darkblue;
+    font-size: 18px;
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90%;
+    margin: 20px auto;
+}
+/* Estilo de las imagenes */
+img {
+    border: 3px solid blueviolet;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+/* Estilo de los enlaces */
+a {
+    color: darkblue;
+    font-size: 18px;
+}
+/* Estilo de los subtitulos */
+h2 {
+    color: teal;
+}
+/* Adaptacion para celulares */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        width: 90%;
+        font-size: 24px;
+    }
+    p {
+        width: 90%;
+        font-size: 16px;
+    }
+    img {
+        width: 90%;
+        height: auto;
+    }
+    a {
+        font-size: 16px;
+    }
+}

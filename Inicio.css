@@ -1,0 +1,99 @@
+/* Estilos generales de la pagina */
+body {
+    background-color: rgb(136, 209, 233);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+/* Encabezado principal */
+.encabezado {
+    text-align: center;
+}
+/* Estilo de los titulos */
+h1 {
+    color: blueviolet;
+    text-align: center;
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 20px;
+    padding: 15px;
+}
+/* Contenedor principal */
+.contenedor {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+/* Estilo de los subtitulos */
+h2 {
+    color: teal;
+}
+/* Estilo de los parrafos */
+p {
+    color: darkblue;
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* Estilo de las imagenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid blueviolet;
+    border-radius: 20px;
+}
+/* Estilo del menu */
+.menu {
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    margin: 12px;
+}
+a {
+    color: darkblue;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+/* Pie de pagina */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Adaptacion para celulares */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    a {
+        font-size: 16px;
+    }
+}
